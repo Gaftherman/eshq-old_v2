@@ -1,0 +1,1103 @@
+{
+"wad" "\program files (x86)\valve hammer editor\maps\eshq\eshq.wad;\program files (x86)\valve hammer editor\maps\eshq\presets\decals.wad;"
+"mapversion" "220"
+"WaveHeight" "0.1"
+"newunit" "1"
+"sounds" "1"
+"light" "1"
+"skyname" "eshq_firnig_"
+"mapversion" "220"
+"MaxRange" "10000"
+"message" "Evil Scientists HQ by Barhatov - Map 25"
+"classname" "worldspawn"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"roomtype" "17"
+"classname" "trigger_sound"
+}
+{
+"model" "*2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"landmark" "eshq25m"
+"map" "eshq24"
+"classname" "trigger_changelevel"
+}
+{
+"origin" "3024 3584 -312"
+"targetname" "spawnmove"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*4"
+"targetname" "doormove"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "2604 3664 4"
+"skin" "1"
+"pose" "2"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_barney_dead"
+}
+{
+"origin" "2664 3684 4"
+"skin" "1"
+"pose" "2"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_barney_dead"
+}
+{
+"model" "*6"
+"origin" "2776 3412 48"
+"targetname" "Wind01"
+"distance" "90"
+"lip" "4"
+"wait" "-1"
+"unlocked_sound" "13"
+"stopsnd" "4"
+"movesnd" "10"
+"speed" "200"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "16"
+"classname" "func_door_rotating"
+}
+{
+"model" "*7"
+"roomtype" "18"
+"classname" "trigger_sound"
+}
+{
+"model" "*8"
+"roomtype" "17"
+"classname" "trigger_sound"
+}
+{
+"model" "*9"
+"roomtype" "22"
+"classname" "trigger_sound"
+}
+{
+"model" "*10"
+"roomtype" "18"
+"classname" "trigger_sound"
+}
+{
+"model" "*11"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "928 2852 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "928 2112 872"
+"angles" "90 0 0"
+"_fade" "1.0"
+"_light" "140 40 0 200"
+"classname" "light_environment"
+}
+{
+"origin" "928 1372 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-608 1372 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-608 2852 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "2464 1372 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "2464 2852 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-608 3976 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "928 3976 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "2464 3976 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-608 248 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "928 248 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "2464 248 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "3528 1372 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "3528 2852 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-1672 1372 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-1672 2852 504"
+"targetname" "Wind01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/wind1.wav"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "2580 3088 4"
+"skin" "1"
+"pose" "1"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_barney_dead"
+}
+{
+"model" "*12"
+"speed" "10"
+"volume" "0.8"
+"target" "Ship01P11"
+"targetname" "Ship01G"
+"renderamt" "50"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"origin" "736 2016 280"
+"_fade" "1.0"
+"_light" "255 255 255 70"
+"classname" "light"
+}
+{
+"origin" "832 2016 280"
+"_fade" "1.0"
+"_light" "255 255 255 70"
+"classname" "light"
+}
+{
+"origin" "832 2208 280"
+"_fade" "1.0"
+"_light" "255 255 255 70"
+"classname" "light"
+}
+{
+"origin" "736 2208 280"
+"_fade" "1.0"
+"_light" "255 255 255 70"
+"classname" "light"
+}
+{
+"model" "*13"
+"target" "Ship01P01"
+"speed" "10"
+"volume" "0.8"
+"targetname" "Ship01M"
+"renderamt" "255"
+"rendermode" "1"
+"renderfx" "3"
+"rendercolor" "128 0 255"
+"spawnflags" "8"
+"classname" "func_train"
+}
+{
+"model" "*14"
+"dmg" "100"
+"speed" "10"
+"volume" "1"
+"stopsnd" "10"
+"movesnd" "14"
+"target" "Ship01P01"
+"targetname" "Ship01F"
+"rendercolor" "0 0 0"
+"spawnflags" "128"
+"classname" "func_train"
+}
+{
+"origin" "176 2112 160"
+"speed" "10"
+"angles" "0 0 0"
+"targetname" "Ship01P06"
+"classname" "path_corner"
+}
+{
+"origin" "944 2112 252"
+"message" "Ship02"
+"speed" "10"
+"angles" "0 0 0"
+"targetname" "Ship01P16"
+"classname" "path_corner"
+}
+{
+"origin" "856 2112 448"
+"speed" "20"
+"target" "Ship01P16"
+"angles" "0 0 0"
+"targetname" "Ship01P15"
+"classname" "path_corner"
+}
+{
+"origin" "88 2112 356"
+"speed" "20"
+"target" "Ship01P06"
+"angles" "0 0 0"
+"targetname" "Ship01P05"
+"classname" "path_corner"
+}
+{
+"origin" "600 2112 672"
+"speed" "30"
+"target" "Ship01P15"
+"angles" "0 0 0"
+"targetname" "Ship01P14"
+"classname" "path_corner"
+}
+{
+"origin" "-168 2112 580"
+"speed" "30"
+"target" "Ship01P05"
+"angles" "0 0 0"
+"targetname" "Ship01P04"
+"classname" "path_corner"
+}
+{
+"origin" "200 2112 800"
+"speed" "50"
+"target" "Ship01P14"
+"angles" "0 0 0"
+"targetname" "Ship01P13"
+"classname" "path_corner"
+}
+{
+"origin" "-568 2112 708"
+"speed" "50"
+"target" "Ship01P04"
+"angles" "0 0 0"
+"targetname" "Ship01P03"
+"classname" "path_corner"
+}
+{
+"origin" "-1768 2112 800"
+"speed" "70"
+"target" "Ship01P13"
+"angles" "0 0 0"
+"targetname" "Ship01P12"
+"classname" "path_corner"
+}
+{
+"origin" "-2536 2112 708"
+"speed" "70"
+"target" "Ship01P03"
+"angles" "0 0 0"
+"targetname" "Ship01P02"
+"classname" "path_corner"
+}
+{
+"origin" "-1832 2112 384"
+"speed" "50"
+"target" "Ship01P12"
+"angles" "0 0 0"
+"targetname" "Ship01P11"
+"classname" "path_corner"
+}
+{
+"origin" "-2600 2112 292"
+"speed" "50"
+"target" "Ship01P02"
+"angles" "0 0 0"
+"targetname" "Ship01P01"
+"classname" "path_corner"
+}
+{
+"model" "*15"
+"target" "spawn01"
+"classname" "trigger_once"
+}
+{
+"origin" "1320 2112 872"
+"Ship01M" "0"
+"Ship01G" "0"
+"Ship01F" "0"
+"targetname" "Ship01"
+"classname" "multi_manager"
+}
+{
+"origin" "-1920 2112 328"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "monster_gman"
+}
+{
+"model" "*16"
+"target" "Msg01"
+"classname" "trigger_once"
+}
+{
+"origin" "2728 3440 48"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "1"
+"fadein" "1"
+"color2" "255 0 255"
+"color" "0 128 255"
+"y" "0.1"
+"x" "0.1"
+"message" "Bernier city stadium"
+"targetname" "Msg01"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "968 2112 256"
+"Ship03R" "6"
+"Ship02L03" "5"
+"Ship02L02" "4"
+"Ship02L01" "3"
+"Ship02R" "1"
+"targetname" "Ship02"
+"classname" "multi_manager"
+}
+{
+"style" "32"
+"origin" "924 1824 96"
+"targetname" "Ship02L01"
+"_fade" "1.0"
+"_light" "255 255 255 500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"style" "32"
+"origin" "924 2400 96"
+"targetname" "Ship02L01"
+"_fade" "1.0"
+"_light" "255 255 255 500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"style" "33"
+"origin" "-548 1824 128"
+"targetname" "Ship02L03"
+"_fade" "1.0"
+"_light" "255 255 255 500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"style" "33"
+"origin" "-548 2400 128"
+"targetname" "Ship02L03"
+"_fade" "1.0"
+"_light" "255 255 255 500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"style" "34"
+"origin" "-112 2604 96"
+"targetname" "Ship02L02"
+"_fade" "1.0"
+"_light" "255 255 255 500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"style" "34"
+"origin" "464 2604 96"
+"targetname" "Ship02L02"
+"_fade" "1.0"
+"_light" "255 255 255 500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"style" "34"
+"origin" "464 1620 96"
+"targetname" "Ship02L02"
+"_fade" "1.0"
+"_light" "255 255 255 500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"style" "34"
+"origin" "-112 1620 96"
+"targetname" "Ship02L02"
+"_fade" "1.0"
+"_light" "255 255 255 500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"origin" "984 2112 256"
+"rendercolor" "0 0 0"
+"rendermode" "2"
+"target" "Ship01M"
+"targetname" "Ship02R"
+"classname" "env_render"
+}
+{
+"model" "*17"
+"targetname" "Ship03T"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "968 2112 88"
+"m_iszNewTarget" "Ship03"
+"target" "Ship03T"
+"targetname" "Ship03R"
+"classname" "trigger_changetarget"
+}
+{
+"origin" "744 2112 248"
+"holdtime" "2"
+"duration" "3"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"targetname" "Ship03F01"
+"classname" "env_fade"
+}
+{
+"origin" "728 2112 248"
+"Ship03CL" "35.1"
+"Ship03F01#1" "32"
+"Ship03M05" "28"
+"Ship03M04" "23"
+"Ship03M03" "18"
+"Ship03M02" "13"
+"Ship03M01" "9"
+"Ship03SS01" "5"
+"Comp01" "5"
+"Ship03F02" "5"
+"Ship03C01" "4"
+"Wind01" "3"
+"Ship03C02" "0"
+"Ship03F01" "0"
+"Ship03RR" "0"
+"targetname" "Ship03"
+"classname" "multi_manager"
+}
+{
+"origin" "712 2112 248"
+"holdtime" "3"
+"duration" "3"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"targetname" "Ship03F02"
+"spawnflags" "1"
+"classname" "env_fade"
+}
+{
+"origin" "712 2112 264"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "31"
+"angles" "0 0 0"
+"target" "Ship03C01T"
+"targetname" "Ship03C01"
+"spawnflags" "12"
+"classname" "trigger_camera"
+}
+{
+"origin" "760 2112 264"
+"targetname" "Ship03C01T"
+"spawnflags" "4"
+"classname" "info_target"
+}
+{
+"origin" "864 2112 192"
+"m_iszEntity" "monster_gman"
+"m_fMoveTo" "1"
+"m_flRadius" "200"
+"angles" "0 180 0"
+"targetname" "Ship03SS01"
+"spawnflags" "64"
+"classname" "scripted_sequence"
+}
+{
+"origin" "856 2072 256"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "1"
+"fadein" "1"
+"color2" "255 0 255"
+"color" "0 255 0"
+"y" "0.8"
+"x" "-1"
+"message" "- Congratulations! ESHQ is now really\ndestroyed!"
+"targetname" "Ship03M01"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "856 2056 248"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "1"
+"fadein" "1"
+"color2" "255 0 255"
+"color" "0 255 0"
+"y" "0.8"
+"x" "-1"
+"message" "- We didn't know that the HQ was only\ncover. All giblets were here"
+"targetname" "Ship03M02"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "856 2040 256"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "1"
+"fadein" "1"
+"color2" "255 0 255"
+"color" "0 255 0"
+"y" "0.8"
+"x" "-1"
+"message" "- The destiny has directed you to us.\nWithout you we would not find them"
+"targetname" "Ship03M03"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "856 2024 248"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "1"
+"fadein" "1"
+"color2" "255 0 255"
+"color" "0 255 0"
+"y" "0.8"
+"x" "-1"
+"message" "- Now we can be engaged in city\nrestoration. And you can have a rest"
+"targetname" "Ship03M04"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "856 2008 256"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "1"
+"fadein" "1"
+"color2" "255 0 255"
+"color" "0 255 0"
+"y" "0.8"
+"x" "-1"
+"message" "- Them CEO is still alive.\nOnly you can destroy him"
+"targetname" "Ship03M05"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "984 2112 88"
+"m_iszNewTarget" "Ship03E"
+"target" "Ship03T"
+"targetname" "Ship03RR"
+"classname" "trigger_changetarget"
+}
+{
+"origin" "912 2208 232"
+"targetname" "Comp01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/computalk1.wav"
+"spawnflags" "18"
+"classname" "ambient_generic"
+}
+{
+"origin" "912 2016 232"
+"targetname" "Comp01"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"message" "ambience/computalk2.wav"
+"spawnflags" "18"
+"classname" "ambient_generic"
+}
+{
+"model" "*18"
+"landmark" "eshq26m"
+"map" "eshq26"
+"targetname" "Ship03CL"
+"classname" "trigger_changelevel"
+}
+{
+"origin" "936 2072 56"
+"target" "Ship03C02T"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "3.9"
+"angles" "0 180 0"
+"targetname" "Ship03C02"
+"spawnflags" "4"
+"classname" "trigger_camera"
+}
+{
+"origin" "944 2112 40"
+"targetname" "eshq26m"
+"classname" "info_landmark"
+}
+{
+"origin" "920 2072 56"
+"targetname" "Ship03C02T"
+"spawnflags" "4"
+"classname" "info_target"
+}
+{
+"model" "*19"
+"target" "Wind01"
+"classname" "trigger_once"
+}
+{
+"origin" "968 2112 8"
+"rendercolor" "0 0 0"
+"renderamt" "100"
+"target" "Ship03WW"
+"targetname" "Ship03R"
+"spawnflags" "13"
+"classname" "env_render"
+}
+{
+"origin" "200 2112 8"
+"frequency" "1.5"
+"duration" "2"
+"radius" "3000"
+"amplitude" "12"
+"targetname" "Ship02"
+"classname" "env_shake"
+}
+{
+"model" "*20"
+"renderfx" "13"
+"rendermode" "1"
+"targetname" "Ship03WW"
+"rendercolor" "255 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*21"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"monstertype" "monster_bigmomma"
+"m_flBeamRadius" "10000"
+"m_iBeamAlpha" "255"
+"m_iBeamCount" "20"
+"m_vBeamColor" "255 0 0"
+"m_flLightRadius" "1000"
+"m_vLightColor" "255 0 0"
+"targetname" "xenfx1"
+"spawnflags" "2"
+"classname" "env_xenmaker"
+}
+{
+"origin" "-642.333374 1992.298828 36.03125"
+"monstertype" "monster_bigmomma"
+"targetname" "gta"
+"xenmaker" "xenfx1"
+"monstercount" "1"
+"m_imaxlivechildren" "1"
+"dmg" "1000"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"monstertype" "monster_alien_voltigore"
+"angles" "0 180 0"
+"m_flBeamRadius" "10000"
+"m_iBeamAlpha" "255"
+"m_iBeamCount" "20"
+"m_vBeamColor" "0 0 255"
+"m_flLightRadius" "1000"
+"m_vLightColor" "0 0 255"
+"targetname" "xenfx2"
+"spawnflags" "2"
+"classname" "env_xenmaker"
+}
+{
+"origin" "2558.666748 2129.408691 36.03125"
+"monstertype" "monster_alien_voltigore"
+"angles" "0 180 0"
+"targetname" "gta"
+"xenmaker" "xenfx2"
+"classify" "8"
+"monstercount" "1"
+"m_imaxlivechildren" "1"
+"dmg" "1000"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"targetname" "drmv01"
+"target" "doormove"
+"m_iszValueName" "origin"
+"m_iszNewValue" "-23.774902 -608.053955 -0.172504"
+"classname" "trigger_changevalue"
+}
+{
+"targetname" "spwnmv"
+"target" "spawnmove"
+"m_iszValueName" "origin"
+"m_iszNewValue" "1964.696411 2093.470703 36.03125"
+"classname" "trigger_changevalue"
+}
+{
+"targetname" "spawn01"
+"drmv01" "0"
+"spwnmv" "0"
+"respawn01" "3"
+"gta" "7"
+"gta212" "15"
+"gta2123" "25"
+"gta21234" "35"
+"classname" "multi_manager"
+}
+{
+"targetname" "respawn01"
+"classname" "trigger_respawn"
+}
+{
+"origin" "930.142639 3895.642822 420.03125"
+"monstertype" "monster_alien_voltigore"
+"angles" "0 270 0"
+"targetname" "gta"
+"xenmaker" "xenfx2"
+"classify" "8"
+"monstercount" "1"
+"m_imaxlivechildren" "1"
+"dmg" "1000"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "933.102173 335.76236 420.03125"
+"monstertype" "monster_alien_voltigore"
+"angles" "0 90 0"
+"targetname" "gta"
+"classify" "8"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"m_imaxlivechildren" "1"
+"dmg" "1000"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "3451.515625 2144.05542 420.03125"
+"monstertype" "monster_alien_voltigore"
+"angles" "0 180 0"
+"targetname" "gta"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"classify" "8"
+"m_imaxlivechildren" "1"
+"dmg" "1000"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "930.142639 3895.642822 420.03125"
+"monstertype" "monster_pitdrone"
+"angles" "0 270 0"
+"targetname" "gta212"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"classify" "8"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "933.102173 335.76236 420.03125"
+"monstertype" "monster_pitdrone"
+"angles" "0 90 0"
+"targetname" "gta212"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"classify" "8"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "3451.515625 2144.05542 420.03125"
+"monstertype" "monster_pitdrone"
+"angles" "0 180 0"
+"targetname" "gta212"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"classify" "8"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "930.142639 3895.642822 420.03125"
+"monstertype" "monster_pitdrone"
+"angles" "0 270 0"
+"targetname" "gta2123"
+"xenmaker" "xenfx2"
+"classify" "8"
+"monstercount" "1"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "933.102173 335.76236 420.03125"
+"monstertype" "monster_pitdrone"
+"angles" "0 90 0"
+"targetname" "gta2123"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"classify" "8"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "3451.515625 2144.05542 420.03125"
+"monstertype" "monster_pitdrone"
+"angles" "0 180 0"
+"targetname" "gta2123"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"classify" "8"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "930.142639 3895.642822 420.03125"
+"monstertype" "monster_shocktrooper"
+"angles" "0 270 0"
+"targetname" "gta21234"
+"xenmaker" "xenfx2"
+"classify" "8"
+"monstercount" "1"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "933.102173 335.76236 420.03125"
+"monstertype" "monster_shocktrooper"
+"angles" "0 90 0"
+"targetname" "gta21234"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"classify" "8"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"origin" "3451.515625 2144.05542 420.03125"
+"monstertype" "monster_shocktrooper"
+"angles" "0 180 0"
+"targetname" "gta21234"
+"xenmaker" "xenfx2"
+"monstercount" "1"
+"classify" "8"
+"m_imaxlivechildren" "1"
+"dmg" "1"
+"trigger_condition" "4"
+"trigger_target" "gta32"
+"spawnflags" "64"
+"classname" "squadmaker"
+}
+{
+"frags" "1"
+"health" "15"
+"target" "Ship01"
+"targetname" "gta32"
+"classname" "game_counter"
+}
+{
+"origin" "2621.054932 3078.87207 36.03125"
+"m_flCustomRespawnTime" "1"
+"classname" "weapon_crossbow"
+}
+{
+"model" "*22"
+"classname" "trigger_autosave"
+}
+ 
